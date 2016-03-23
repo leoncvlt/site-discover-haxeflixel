@@ -1,0 +1,452 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Discover HaxeFlixel | The Book</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- jQuery (Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Lucid Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--webfont-->
+	<!--animated-css-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script type="text/javascript" src="bin/swfobject.js"></script>
+	<script type="text/javascript">
+		swfobject.embedSWF ("bin/haxeflixel-game.swf", "nme-application", "640", "360", "11.8", "bin/expressInstall.swf", {});
+	</script>
+	<!--/animated-css-->
+	<link href='//fonts.googleapis.com/css?family=Ubuntu:200,300,400,600,700,900,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!---- start-smoth-scrolling---->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+			});
+		});
+	</script>
+	<form >
+		<!---- start-smoth-scrolling---->
+
+	</head>
+	<body>
+
+		<!---->
+
+		<div class="banner">
+			<div class="container">
+				<div class="header">
+					<div class="logo wow fadeInLeft" data-wow-delay="0.0s">
+						<a href="index.html"><img src="images/logo.png" alt=""/></a>
+					</div>
+					<div class="top-menu">
+						<span class="menu"></span>
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a class="scroll" href="#about">About</a></li>
+							<li><a class="scroll" href="#demo">Play</a></li>
+							<li><a class="scroll" href="#features">Chapters</a></li>
+							<!-- <li><a class="scroll" href="#testimonials">Testimonials</a></li> -->
+							<li><a class="scroll" href="#pricing">Buy Now</a></li>
+							<!-- <li><a class="scroll" href="#contact">Contact</a></li>			  -->
+						</ul>
+					</div>
+					<!-- script-for-menu -->
+					<script>
+						$("span.menu").click(function(){
+							$(".top-menu ul").slideToggle("slow" , function(){
+							});
+						});
+					</script>
+					<!-- script-for-menu -->	  	
+
+					<div class="clearfix"></div>
+				</div>
+				<div class="banner-info">
+					<div class="col-md-6 banner-text wow fadeInRight" data-wow-delay="0.5s">
+						<h3>make the games you love</h3>
+						<h1>Learn Cross-Platform Game Development with HaxeFlixel</h1>
+						<p>Learn how to use the open-source HaxeFlixel framework to effortlessly develop and distribute your game on Windows, Mac, Linux, Android, IOS and the web... for free!</p>
+						<a class="download scroll" href="#pricing">BUY THE BOOK NOW</a>
+						<a class="view hvr-bounce-to-left scroll" href="#features">SEE LEARNING PATH</a>
+					</div>
+					<div class="col-md-6 banner-pic wow fadeInLeft" data-wow-delay="0.5s">
+						<img src="images/phn.png" alt=""/>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+		<!---->
+
+		<div id="about" class="about">
+			<div class="container">
+				<div class="about-top">
+					<div class="col-md-4 about-device wow fadeInLeft" data-wow-delay="0.5s">
+						<img src="images/phn2.png" alt=""/>
+					</div>
+					<div class="col-md-8 about-device-info wow fadeInRight" data-wow-delay="0.5s">
+						<div class="device-text">
+							<h4>GAME BUILDING TECHNOLOGY</h4>
+							<h3>What is HaxeFlixel</h3>					 
+							<p><a href="http://haxeflixel.com/">HaxeFlixel</a> is a 2D game development library for the <a href="http://haxe.org/">Haxe</a> toolkit, an intuitive programming language.</p>
+							<p>It provides all the tools you need to prototype and develop games, fast!</p>
+							<p>By using the open-source <a href="http://www.openfl.org/">OpenFL</a> framework, HaxeFlixel can export your game to Windows, Mac, Linux, IOS, Android and web platform - all with just one codebase.</p>
+							<p>HaxeFlixel and its technology stack are <a href="https:\\www.github.com\haxeflixel">open-source</a> and free to use for both personal and commercial use, and work with any modern operative system.</p>
+							<p>By reading this book, you'll learn how to develop a platformer-style arcade game using HaxeFlixel, and deploy it to desktop and mobile platforms.</p>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>		
+			</div>
+		</div>
+
+		<!---->
+
+		<div id="demo" class="about-bottom">
+			<div class="container">
+				<div class="col-md-6 about-customize wow fadeInRight" data-wow-delay="0.5s">
+					<div class="device-text-bottom">
+						<h4>ENOUGH TALKING</h4>
+						<h3>Play what you'll make</h3>						
+						<p>The web is just one of the several supported platform targets that your game can be deployed to 
+							- Simply click the interactive applet on the right to start playing.</p>
+							<p>Reading this book you will develop this very same game - starting from scratch!</p>
+							<p><img src="images/commands.png"></p>
+						</div>				 
+					</div>
+					<div class="col-md-6 about-device-bottom wow fadeInLeft" data-wow-delay="0.5s" >
+						<div id="nme-application" class="game-applet"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!---->
+
+			<div id="features" class="features">
+				<div class="container">
+					<div class="features-head">
+						<h4>LEARNING PATH</h4>
+						<h3>Chapter List</h3>			 
+					</div>
+					<div class="features-section">
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_01.png" alt=""/>
+							<h4>HaxeFlixel Setup</h4>						
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_02.png" alt=""/>
+							<h4>Basic Concepts</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_03.png" alt=""/>
+							<h4>Game Groundwork</h4>
+							<a href="discover-haxeflixel-free-chapter.pdf">FREE CHAPTER</a>	
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_04.png" alt=""/>
+							<h4>The Player</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_05.png" alt=""/>
+							<h4>Creating a Level</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_06.png" alt=""/>
+							<h4>Coin Collectible</h4>
+						</div>
+
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_07.png" alt=""/>
+							<h4>Head Up Display</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_08.png" alt=""/>
+							<h4>Our First Enemy</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_09.png" alt=""/>
+							<h4>Losing a Life</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_10.png" alt=""/>
+							<h4>Code Refactor</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_11.png" alt=""/>
+							<h4>SubStates</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_12.png" alt=""/>
+							<h4>Main Menu</h4>
+						</div>
+
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_13.png" alt=""/>
+							<h4>Bonus Block</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_14.png" alt=""/>
+							<h4>Power-Up Collectible</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_15.png" alt=""/>
+							<h4>CheckPoint & Exit</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_16.png" alt=""/>
+							<h4>Sound & Music</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_17.png" alt=""/>
+							<h4>Finishing Touches</h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_18.png" alt=""/>
+							<h4>Cross-Platform Deployement</h4>
+						</div>
+
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_19.png" alt=""/>
+							<h4>Optimizing for Mobile Part I </h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_20.png" alt=""/>
+							<h4>Optimizing for Mobile Part II </h4>
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_21.png" alt=""/>
+							<h4>Brick Block</h4>
+							<a class="scroll" href="#pricing">EXTRA CHAPTER</a>	
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_22.png" alt=""/>
+							<h4>Invincibility Power</h4>
+							<a class="scroll" href="#pricing">EXTRA CHAPTER</a>	
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_23.png" alt=""/>
+							<h4>Shell Enemy</h4>
+							<a class="scroll" href="#pricing">EXTRA CHAPTER</a>	
+						</div>
+						<div class="col-md-2 feature-grid">
+							<img class="wow bounceIn feature-img" data-wow-delay="0.4s" src="images/chpt_thumb_24.png" alt=""/>
+							<h4>Fireball Power-Up</h4>
+							<a class="scroll" href="#pricing">EXTRA CHAPTER</a>	
+						</div>
+						<div class="clearfix"></div>	
+					</div>	
+				</div>
+			</div>
+
+			<!---->
+
+<!-- 			<div class="theme">
+				<div class="container">
+					<h3 class="wow bounceIn" data-wow-delay="0.4s"><span>Like what you see ?</span> Get this great theme now !</h3>
+					<a class="view hvr-bounce-to-left wow bounceIn" data-wow-delay="0.4s" href="#">VIEW FEATURES</a>
+					<a class="download wow bounceIn" data-wow-delay="0.4s" href="#">DOWNLOAD NOW</a>		 
+				</div>
+			</div> -->
+
+			<!---->
+
+			<div id="testimonials" class="pricing">
+				<div class="container">
+					<div class="pricing-text">
+						<h4>FREQUENTLY ASKED QUESTIONS</h4>
+						<h3>F.A.Q.</h3>				
+					</div> -->
+					<div class="pricing-grids">
+						<div class="col-md-3 pricing-plans">
+							<div class="faq-info">
+								<p>I don't have much experience in programming or game development. Is this for me?</p>
+							</div>
+							<p>
+								The book will start from the absolute HaxeFlixel basics and guide you step by step.
+								You just need to be familiar with elementary programming concepts like variables, functions and loops.
+							</p>
+						</div>
+						<div class="col-md-3 pricing-plans">
+							<div class="faq-info">
+								<p>I'm not good at creating game art, do I have to draw my own graphics?</p>
+							</div>
+							<p>
+								The book comes with a full set of free-to-use graphical assets, sounds and music, which you
+								can see in action above. You're free to use and re-arrange them in any way you want.
+							</p>
+						</div>
+						<div class="col-md-3 pricing-plans">
+							<div class="faq-info">
+								<p>Is the book up to date with the latest version?</p>
+							</div>
+							<p>
+								The book is up to date with the latest, bleeding edge HaxeFlixel 4.0 release,
+								and will be updated for each major HaxeFlixel release.
+							</p>
+						</div>					
+						<div class="col-md-3 pricing-plans">
+							<div class="faq-info">
+								<p>Is there a plan for educational & non-profit organizations?</p>
+							</div>
+							<p>
+								I am more than happy to offer discounted packs in such cases. Contact me using
+								the form below if interested.
+							</p>
+						</div>				
+						<div class="clearfix"></div>						  
+					</div>  	
+				</div>
+			</div>
+
+			<!---->
+
+			<div id="author" class="about">
+				<div class="container">
+					<div class="about-top">
+						<div class="col-md-4 about-device wow fadeInLeft" data-wow-delay="0.5s">
+							<img src="images/profile.png" alt=""/>
+						</div>
+						<div class="col-md-8 about-device-info wow fadeInRight" data-wow-delay="0.5s">
+							<div class="device-text">
+								<h4>ABOUT THE AUTHOR</h4>
+								<!-- <h3>About the Author</h3>					  -->
+								<p>Leonardo Cavaletti is a creative developer currently working in the 3D animation industry.
+									Long time gamer and fan of old school games and pixel art, he got into the hobby of game development since a young age.
+									After discovering HaxeFlixel, he used it to develop and release the arcade game <a href="https:\\leongotgame.itch.io\polaritron">Polaritron</a>, and kept making prototypes and exploring the potential of this soon-to-be-favourite framework.
+									He then decided to write this book to share his passion and knowledge of HaxeFlixel.
+								</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>		
+				</div>
+			</div>
+
+			<!---->
+
+			<div id="pricing" class="pricing-bottom">
+				<div class="container">
+					<div class="pricing-text-bottom">
+						<h4>START LEARNING NOW</h4>
+						<h3>Buy the Book</h3>			
+					</div>
+					<div class="price-section-grids">
+						<div class="price-value text-center wow fadeInUp" data-wow-delay="0.4s">				  
+							<div class="price-head">
+								<h5>Base Bundle</h5>    									
+								<img src="images/pack-base.png" alt=""/>
+							</div>
+							<div class="cost">
+								<h3><span>$</span>14<span>.95</span></h3>
+							</div>
+							<div class="cost-info">
+								<div class="cost-info-features">
+									<p><i class="fa fa-book"></i>  Book in .pdf, .mobi, .epub format</p>
+									<p><i class="fa fa-file-code-o"></i>  Full source code & assets for each chapter</p>
+								</div>
+								<a href="#">BUY</a>	
+							</div>				 			 
+						</div>
+						<div class="price-value text-center wow fadeInDown" data-wow-delay="0.4s">				  
+							<div class="price-head">
+								<h5>Full Bundle</h5>
+								<img src="images/pack-full.png" alt=""/>
+							</div>
+							<div class="cost">
+								<h3><span>$</span>19<span>.95</span></h3>
+							</div>
+							<div class="cost-info">
+								<div class="cost-info-features">
+									<p><i class="fa fa-book"></i>  Book in .pdf, .mobi, .epub format</p>
+									<p><i class="fa fa-trophy"></i> <span> 4 Extra Chapters</span>: Brick Blocks, Invincibility Bonus, Shell Enemy and Fireball Power-up</p>
+									<p><i class="fa fa-file-code-o"></i>  Full source code & assets for each chapter</p>
+									<p><i class="fa fa-heart"></i> <span> $3 donated to the HaxeFlixel Foundation</span> for each purchase</p>
+								</div>
+								<a href="#">BUY</a>	
+							</div>
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+
+
+			<!---->
+
+			<div id="contact" class="contact">
+				<div class="container">
+					<div class="contact-text">
+						<h4>QUESTIONS? QUERIES? LOVE THE BOOK?</h4>
+						<h3 style="text-decoration: underline;">
+						<a href="mailto:impeto.blu@gmail.com">Contact me</a>
+						</h3>
+					</div>
+					<div class="contact-details">
+						<!-- <form action="mailto:impeto.blu@gmail.com" method="post" enctype="text/plain" >
+							<div class="col-md-6 contact-left">
+								<input type="text" class="text wow fadeInLeft" data-wow-delay="0.4s" value="Name *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name *';}">
+								<input type="text" class="text wow fadeInLeft" data-wow-delay="0.4s" value="Email *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email *';}">
+								<input type="text" class="text wow fadeInLeft" data-wow-delay="0.4s" value="Subject *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject *';}">
+							</div>
+							<div class="col-md-6 contact-right">
+								<textarea class="wow fadeInRight" data-wow-delay="0.4s" value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">MESSAGE *</textarea>
+								<input class="wow fadeInRight" data-wow-delay="0.4s" type="submit" value="SEND MESSAGE"/>
+							</div> -->
+							<div class="clearfix"></div>
+						<!-- </form> -->
+					</div>		 
+				</div>
+			</div>
+
+			<!---->
+
+			<div class="footer text-center">
+				<div class="container">
+					<div class="social">			 
+						<a href="https://twitter.com/leongotgame"><span class="twitter"></span></a>
+					</div>
+					<p class="wow bounceIn" data-wow-delay="0.4s">Copyright &copy; 2015 Leonardo Cavaletti. All Rights Reserved | Template by <a href="http://w3layouts.com">W3layouts</a></p>
+				</div>
+			</div>
+			<!---->
+			<script type="text/javascript">
+				$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+				$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+		<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		<!---->
+
+	</body>
+	</html>
