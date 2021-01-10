@@ -26,11 +26,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script>
 		new WOW().init();
 	</script>
-	<script type="text/javascript" src="bin/swfobject.js"></script>
-	<script type="text/javascript">
-		swfobject.embedSWF ("bin/haxeflixel-game.swf", "nme-application", "640", "360", "11.8", "bin/expressInstall.swf", {});
-	</script>
-	<!--/animated-css-->
+	<!---fonts-->
 	<link href='//fonts.googleapis.com/css?family=Ubuntu:200,300,400,600,700,900,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!---- start-smoth-scrolling---->
@@ -44,9 +40,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			});
 		});
 	</script>
-	<form >
-		<!---- start-smoth-scrolling---->
-
 	</head>
 	<body>
 
@@ -65,9 +58,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li><a class="scroll" href="#about">About</a></li>
 							<li><a class="scroll" href="#demo">Play</a></li>
 							<li><a class="scroll" href="#features">Chapters</a></li>
-							<!-- <li><a class="scroll" href="#testimonials">Testimonials</a></li> -->
 							<li><a class="scroll" href="#pricing">Buy Now</a></li>
-							<!-- <li><a class="scroll" href="#contact">Contact</a></li>			  -->
 						</ul>
 					</div>
 					<!-- script-for-menu -->
@@ -136,7 +127,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>				 
 					</div>
 					<div class="col-md-6 about-device-bottom wow fadeInLeft" data-wow-delay="0.5s" >
-						<object type="application/x-shockwave-flash" data="bin/haxeflixel-game.swf" width="640" height="360" id="nme-application" class="game-applet" style="visibility: visible;"></object>
+						<iframe src="./bin/index.html" width="640" height="360"></iframe>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -262,16 +253,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 			<!---->
 
-<!-- 			<div class="theme">
-				<div class="container">
-					<h3 class="wow bounceIn" data-wow-delay="0.4s"><span>Like what you see ?</span> Get this great theme now !</h3>
-					<a class="view hvr-bounce-to-left wow bounceIn" data-wow-delay="0.4s" href="#">VIEW FEATURES</a>
-					<a class="download wow bounceIn" data-wow-delay="0.4s" href="#">DOWNLOAD NOW</a>		 
-				</div>
-			</div> -->
-
-			<!---->
-
 			<div id="testimonials" class="pricing">
 				<div class="container">
 					<div class="pricing-text">
@@ -302,7 +283,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<p>Is the book up to date with the latest version?</p>
 							</div>
 							<p>
-								The book is up to date with the latest, bleeding edge HaxeFlixel 4.7.0 release,
+								The book is up to date with the latest HaxeFlixel 4.8 release,
 								and will be updated for each major HaxeFlixel release.
 							</p>
 						</div>					
@@ -326,12 +307,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="container">
 					<div class="about-top">
 						<div class="col-md-4 about-device wow fadeInLeft" data-wow-delay="0.5s">
-							<img src="images/profile.png" alt=""/>
+							<img src="images/profile.jpg" alt="" style="border-radius: 1rem"/>
 						</div>
 						<div class="col-md-8 about-device-info wow fadeInRight" data-wow-delay="0.5s">
 							<div class="device-text">
 								<h4>ABOUT THE AUTHOR</h4>
-								<!-- <h3>About the Author</h3>					  -->
 								<p>Leonardo Cavaletti is a creative developer currently working in the 3D animation industry.
 									Long time gamer and fan of old school games and pixel art, he got into the hobby of game development since a young age.
 									After discovering HaxeFlixel, he used it to develop and release the arcade game <a href="http://leongotgame.itch.io/polaritron">Polaritron</a>, and kept making prototypes and exploring the potential of this soon-to-be-favourite framework.
@@ -366,7 +346,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<p><i class="fa fa-book"></i>  Book in .pdf, .mobi, .epub format</p>
 									<p><i class="fa fa-file-code-o"></i>  Full source code & assets for each chapter</p>
 								</div>
-								<a href="https://gum.co/discover-haxeflixel-base">BUY</a>	
+								<a href="#">BUY</a>	
 							</div>				 			 
 						</div>
 						<div class="price-value text-center wow fadeInDown" data-wow-delay="0.4s">				  
@@ -384,7 +364,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<p><i class="fa fa-file-code-o"></i>  Full source code & assets for each chapter</p>
 									<p><i class="fa fa-heart"></i> <span> $3 donated to the HaxeFlixel Foundation</span> for each purchase</p>
 								</div>
-								<a href="https://gum.co/discover-haxeflixel">BUY</a>	
+								<a href="#">BUY</a>	
 							</div>
 						</div>
 
@@ -392,7 +372,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 			</div>
-
 
 			<!---->
 
@@ -405,18 +384,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</h3>
 					</div>
 					<div class="contact-details">
-						<!-- <form action="mailto:impeto.blu@gmail.com" method="post" enctype="text/plain" >
-							<div class="col-md-6 contact-left">
-								<input type="text" class="text wow fadeInLeft" data-wow-delay="0.4s" value="Name *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name *';}">
-								<input type="text" class="text wow fadeInLeft" data-wow-delay="0.4s" value="Email *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email *';}">
-								<input type="text" class="text wow fadeInLeft" data-wow-delay="0.4s" value="Subject *" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject *';}">
-							</div>
-							<div class="col-md-6 contact-right">
-								<textarea class="wow fadeInRight" data-wow-delay="0.4s" value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">MESSAGE *</textarea>
-								<input class="wow fadeInRight" data-wow-delay="0.4s" type="submit" value="SEND MESSAGE"/>
-							</div> -->
 							<div class="clearfix"></div>
-						<!-- </form> -->
 					</div>		 
 				</div>
 			</div>
@@ -431,17 +399,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<p class="wow bounceIn" data-wow-delay="0.4s">Copyright &copy; 2015 Leonardo Cavaletti. All Rights Reserved | Template by <a href="http://w3layouts.com">W3layouts</a></p>
 				</div>
 			</div>
+
 			<!---->
+			
 			<script type="text/javascript">
 				$(document).ready(function() {
-				/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-				*/
 				$().UItoTop({ easingType: 'easeOutQuart' });
 			});
 		</script>
